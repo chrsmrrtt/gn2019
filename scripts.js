@@ -1,5 +1,5 @@
 var horses = [
-    {number: 1, name: "Anibale Fly", odds: 11},
+    {number: 1, name: "Anibale Fly", odds: 12},
     {number: 2, name: "Valtor", odds: 50},
     {number: 3, name: "Tiger Roll", odds: 3.5},
     {number: 4, name: "Outlander", odds: 100},
@@ -8,26 +8,26 @@ var horses = [
     {number: 7, name: "Mala Beach", odds: 50},
     {number: 8, name: "Minella Rocco", odds: 25},
     {number: 9, name: "Lake View Lad", odds: 14},
-    {number: 10, name: "Pleasant Company", odds: -1}, // unknown odds
-    {number: 11, name: "Ballyoptic", odds: 33},
+    {number: 10, name: "Pleasant Company", odds: 16},
+    {number: 11, name: "Ballyoptic", odds: 28},
     {number: 12, name: "Dounikos", odds: 33},
     {number: 13, name: "Rathvinden", odds: 8},
     {number: 14, name: "One For Arthur", odds: 25},
-    {number: 15, name: "Rock The Kasbah", odds: 20},
+    {number: 15, name: "Rock The Kasbah", odds: 16},
     {number: 16, name: "Warriors Tale", odds: 50},
-    {number: 17, name: "Regal Encore", odds: 50},
+    {number: 17, name: "Regal Encore", odds: 66},
     {number: 18, name: "Magic Of Light", odds: 50},
-    {number: 19, name: "A Toi Phil", odds: -1}, // unknown odds
+    {number: 19, name: "A Toi Phil", odds: 50},
     {number: 20, name: "Jury Duty", odds: 16},
-    {number: 21, name: "Noble Endeavor", odds: 33},
-    {number: 22, name: "Monbeg Notorious", odds: 66},
+    {number: 21, name: "Noble Endeavor", odds: 28},
+    {number: 22, name: "Monbeg Notorious", odds: 40},
     {number: 23, name: "Ramses De Teillee", odds: 25},
     {number: 24, name: "Tea For Two", odds: 40},
-    {number: 25, name: "Step Back", odds: 20},
+    {number: 25, name: "Step Back", odds: 25},
     {number: 26, name: "Ultragold", odds: 50},
     {number: 27, name: "Blow By Blow", odds: 66},
     {number: 28, name: "Up For Review", odds: 25},
-    {number: 29, name: "Singlefarmpayment", odds: 50},
+    {number: 29, name: "Singlefarmpayment", odds: 40},
     {number: 30, name: "Vieux Lion Rouge", odds: 33},
     {number: 31, name: "Valseur Lido", odds: 66},
     {number: 32, name: "Vintage Clouds", odds: 11},
@@ -37,9 +37,14 @@ var horses = [
     {number: 36, name: "Folsom Blue", odds: 50},
     {number: 37, name: "Captain Redbeard", odds: 50},
     {number: 38, name: "Bless The Wings", odds: 66},
-    {number: 39, name: "Joe Farrell", odds: 25},
-    {number: 40, name: "Just A Par", odds: -1}  // unknown odds
+    {number: 39, name: "Joe Farrell", odds: 16},
+    {number: 40, name: "Just A Par", odds: 66}
 ];
+
+//{number: 0, name: "Mall Dini", odds: 20}
+//{number: 0, name: "The Young Master", odds: 33}
+//{number: 0, name: "Isleofhopendreams", odds: 40}
+//{number: 0, name: "Exitas", odds: 100}
 
 var listElems = $(".horseList li");
 
